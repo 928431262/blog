@@ -7,6 +7,8 @@ const bodyParser = require('body-parser');
 // 引入routes.js文件
 const routes = require('./routes');
 // const users = require('./routes/users');
+// 测试数据库是否成功
+const  db = require('./model/db')
 
 const app = express();
 
